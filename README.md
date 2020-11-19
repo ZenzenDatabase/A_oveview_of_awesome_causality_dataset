@@ -8,7 +8,7 @@ The overview is about the decription of causality dataset, which is widely appli
 	
 ### Dataset-1 (SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals.)
 
-The dataset is used in the paper [[1], [6]](#1)(#6), the relations from the dataset are classified into 10 categories:
+The dataset is used in the paper [[1]](#1), [[6]](#6), the relations from the dataset are classified into 10 categories:
 - Cause-effect
 - Component-whole
 - Entity-destination
@@ -74,7 +74,14 @@ Dataset Paper: https://www.aclweb.org/anthology/S12-1052.pdf
 Dataset Website: https://competitions.codalab.org/competitions/21691
 
 
+## Event denotation:
 
+## Causal Pairs Extraction Methods:
+
+### 1. Pattern (Causal cues) Extraction：
+**Example**:
+
+![Test Image 1](Causalcues.jpg)
 
 ## The above datasets are from following references：
 
