@@ -149,31 +149,77 @@ Dataset Paper: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471
 
 **Example**:
 
-Dataset Paper:
+![Test Image 1](causaleffectpairs.jpg)
 
-### Dataset-8 ():
+	Information for pair 108:
+
+	This pair shows the dependence of the inverse velocity and the temperature of the heat bath of a Striling engine. The engine is
+	driven by a cup of hot water that is put underneath.
+	The inverse velocity is measured by the time needed for the engine's wheel for 1/6 rotation (because the wheel has 6 radius arms). 
+	The temperature is measured by a sensor that was put into the cup. 
+
+	First column (x): time for 1/6 rotation
+
+	Second column (y): temperature in Degree Celsius
+
+	The data set has been recorded by Dominik Janzing in 2017
+
+	ground truth x <- y
+
+Dataset Website: http://www.causality.inf.ethz.ch/home.php
+
+Dataset Paper: https://dl.acm.org/doi/abs/10.5555/2946645.2946677
+
+### Dataset-8 (Infant Health and Development Program (IHDP)):
  
 **Information**:
 
 **Example**:
 
-Dataset Paper:
+Dataset Github-1: https://github.com/AMLab-Amsterdam/CEVAE
 
-### Dataset-9 ():
+Dataset Github-2: https://github.com/vdorie/npci/tree/master/examples/ihdp_sim
+
+Dataset Paper: https://arxiv.org/abs/1705.08821
+
+### Dataset-9 (Twins):
  
 **Information**:
 
+a dataset of 11984 pairs of twins
+
 **Example**:
 
-Dataset Paper:
+Dataset Github: https://github.com/AMLab-Amsterdam/CEVAE
 
-### Dataset-10 ():
+Dataset Paper: https://arxiv.org/abs/1705.08821
+
+### Dataset-10 (ACIC Benchmark):
  
 **Information**:
 
+Data and simulations from the 2016 Atlantic Causal Inference competition.
+
+
 **Example**:
 
-Dataset Paper:
+Dataset Github: https://github.com/vdorie/aciccomp/tree/master/2016
+
+**Others**:
+
+***News datast***: https://github.com/d909b/perfect_match/tree/master/perfect_match/data_access/news
+
+***TCGA dataset***: https://github.com/d909b/perfect_match/tree/master/perfect_match/data_access/tcga
+
+***Amazon dataset***: https://drive.google.com/drive/u/1/folders/1Ff_GdfjhrDFbZiRW0z81lGJW-cUrYmo1
+
+***AntiCD3/CD28***: https://science.sciencemag.org/content/308/5721/523
+
+***Abalone/Pittsburgh Bridges***: http://archive.ics.uci.edu/ml/index.php
+
+***LUCAS and LUCAP  are lung cancer toy datasets***: http://www.causality.inf.ethz.ch/data/LUCAS.html
+
+
 ---------------------------------------------------------------------------
 ## Event denotation:
 
