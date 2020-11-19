@@ -205,7 +205,7 @@ Data and simulations from the 2016 Atlantic Causal Inference competition.
 
 Dataset Github: https://github.com/vdorie/aciccomp/tree/master/2016
 
-**Others**:
+### Others:
 
 ***News datast***: https://github.com/d909b/perfect_match/tree/master/perfect_match/data_access/news
 
