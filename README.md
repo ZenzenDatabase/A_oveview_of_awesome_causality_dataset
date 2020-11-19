@@ -20,6 +20,10 @@ The dataset is used in the paper [[1]](#1), [[6]](#6), the relations from the da
 - Instrument-agency
 - Other
 
+**Information**:
+
+This dataset contains 10,674 samples, of which 1,325 causal.
+
 **Example**:
 
 	Sentence: ”The current view is that the chronic <e1>inflammation</e1> in the distal part of the stomach caused by 
@@ -32,6 +36,7 @@ Dataset Github: https://github.com/sahitya0000/Relation-Classification
 Dataset Paper: https://www.aclweb.org/anthology/S10-1006.pdf
 
 **Comment**:
+
 	The causal pairs can be used directly by selecting cause-effect relation only.
 	
 ### Dataset-2 (SemEval-2012 Task #7: COPA: Choice Of Plausible Alternatives.)
@@ -56,6 +61,8 @@ Dataset Paper: https://www.aclweb.org/anthology/S12-1052.pdf
 
 ### Dataset-3 (SemEval-2020 Task5: Modelling Causal Reasoning in Language: Detecting Counterfactuals.)
 
+**Information**:
+
 **Example**:
 
 	sentence: If that was my daughter, I would have asked If I did something wrong.
@@ -73,15 +80,111 @@ Dataset Paper: https://www.aclweb.org/anthology/S12-1052.pdf
 
 Dataset Website: https://competitions.codalab.org/competitions/21691
 
+### Dataset-4 (Causal-TimeBank (CausalTB))
 
+Causal-TimeBank is the TimeBank corpus taken from [TempEval-3 task](https://www.cs.york.ac.uk/semeval-2013/task1/), which is part of TempEval-3 English training data: TBAQ-cleaned, annotated with causal information. ---(From official website)
+
+**Information**:
+
+The resulting dataset contains 2,470 sentences, of which 244 are causal.
+
+**Example**:
+
+_Sentence_: But the group began to **fall** apart in mid-1996 after the **defection** of one of its top leaders.
+
+	<token id="538" number="537" sentence="17">fall</token>
+	<token id="544" number="543" sentence="17">defection</token>
+	
+	<Markables>
+		<EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="79" modality="NONE" polarity="POS" pos="VERB" tense="INFINITIVE">
+			<token_anchor id="538"/>
+		</EVENT>
+		<EVENT aspect="NONE" certainty="" class="OCCURRENCE" comment="" factuality="" id="81" modality="NONE" polarity="POS" pos="NOUN" tense="NONE">
+			<token_anchor id="544"/>
+		</EVENT>
+	</Markables>
+	
+	#Realtions
+	<Relations>
+		<TLINK comment="" id="56" relType="AFTER">
+			<source id="79"/>
+			<target id="81"/>
+		</TLINK>
+	</Relations>
+
+**Preprocessing**:
+
+	XML format event and relations extraction.
+
+Dataset Website: https://hlt-nlp.fbk.eu/technologies/causal-timebank
+Dataset Paper: http://www.aclweb.org/anthology/W14-0702
+
+### Dataset-5 (Event StoryLine (EventSL)):
+
+**Information**:
+
+The resulting dataset contains 4,107 sentences, of which 77 are causal.
+
+**Example**:
+
+Dataset Paper: https://www.aclweb.org/anthology/W17-2711.pdf
+
+### Dataset-6 (BioCausal):
+ 
+**Information**:
+
+**(BioCausal-Large)** It contains 13,342 sentences from PUBMED, of which 7,562 causal
+
+**(BioCausal-Small)** It contains 2,000 sentences, of which 1,113 causal.
+
+**Example**:
+
+Dataset Website:https://archive.org/details/CausalySmall
+
+Dataset Paper: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-2
+
+### Dataset-7 ():
+ 
+**Information**:
+
+**Example**:
+
+Dataset Paper:
+
+### Dataset-8 ():
+ 
+**Information**:
+
+**Example**:
+
+Dataset Paper:
+
+### Dataset-9 ():
+ 
+**Information**:
+
+**Example**:
+
+Dataset Paper:
+
+### Dataset-10 ():
+ 
+**Information**:
+
+**Example**:
+
+Dataset Paper:
+---------------------------------------------------------------------------
 ## Event denotation:
 
 ## Causal Pairs Extraction Methods:
 
 ### 1. Pattern (Causal cues) Extraction：
-**Example**:
+**Example** (from paper[[6]](#6)):
 
 ![Test Image 1](Causalcues.jpg)
+
+### 2. TimeML-improved Extraction (From the paper [[7]](#7)):
 
 ## The above datasets are from following references：
 
@@ -96,3 +199,5 @@ Dataset Website: https://competitions.codalab.org/competitions/21691
 <a id="5">[5]</a> Xia, Rui, and Zixiang Ding. "Emotion-cause pair extraction: a new task to emotion analysis in texts." arXiv preprint arXiv:1906.01267 (2019).[link](https://arxiv.org/pdf/1906.01267)
 
 <a id="6">[6]</a> Luo, Z., Sha, Y., Zhu, K. Q., Hwang, S. W., & Wang, Z. (2016, April). Commonsense Causal Reasoning between Short Texts. In KR (pp. 421-431).[link](http://www.cs.sjtu.edu.cn/~kzhu/papers/kzhu-copa.pdf)
+
+<a id="7">[7]</a> Mirza, Paramita, et al. "Annotating causality in the tempeval-3 corpus." EACL 2014 Workshop on Computational Approaches to Causality in Language (CAtoCL). Association for Computational Linguistics, 2014.[link](http://www.academia.edu/download/36843708/W14-07.pdf#page=20)
