@@ -223,6 +223,18 @@ Dataset Github: https://github.com/vdorie/aciccomp/tree/master/2016
 ---------------------------------------------------------------------------
 ## Event denotation:
 
+1. refer to the paper [[9]](#9)
+
+	E = {Wi|Wi ∈ Verbs ∪ Nouns}, in which Verbs and Nouns is the set of verb and nouns in headlines respectively.
+	
+Example:
+	
+	Williams retired [because of] overuse, agent says.
+	
+The event is represented by (Williams, retired).
+
+	
+	
 ## Causal Pairs Extraction Methods:
 
 ### 1. Pattern (Causal cues) Extraction：
@@ -249,3 +261,5 @@ Dataset Github: https://github.com/vdorie/aciccomp/tree/master/2016
 <a id="7">[7]</a> Mirza, Paramita, et al. "Annotating causality in the tempeval-3 corpus." EACL 2014 Workshop on Computational Approaches to Causality in Language (CAtoCL). Association for Computational Linguistics, 2014.[link](http://www.academia.edu/download/36843708/W14-07.pdf#page=20)
 
 <a id="8">[8]</a>  Mooij, Joris M., et al. "Distinguishing cause from effect using observational data: methods and benchmarks." The Journal of Machine Learning Research 17.1 (2016): 1103-1204.[link](https://dl.acm.org/doi/abs/10.5555/2946645.2946677)
+
+<a id="9">[9]</a> Zhao, Sendong, et al. "Constructing and embedding abstract event causality networks from text snippets." Proceedings of the Tenth ACM International Conference on Web Search and Data Mining. 2017.[link](https://dl.acm.org/doi/abs/10.1145/3018661.3018707)
