@@ -7,8 +7,18 @@ The overview is about the decription of causality dataset, which is widely appli
 	from the Senseval word sense evaluation series. Started from SemEval-2007 to SemEval-2020. ---Wikipedia
 	
 ### Dataset-1 (SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals.)
-The relations from the dataset are classified into 10 categories:
-Cause-effect, Component-whole, Entity-destination, Entity-origin, Product-producer, Member-collection, Message-topic, Content-container, Instrument-agency, Other
+
+The dataset is used in the paper [6], the relations from the dataset are classified into 10 categories:
+- Cause-effect
+- Component-whole
+- Entity-destination
+- Entity-origin
+- Product-producer
+- Member-collection
+- Message-topic
+- Content-container
+- Instrument-agency
+- Other
 
 **Example**:
 
