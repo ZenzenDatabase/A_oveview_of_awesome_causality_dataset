@@ -8,7 +8,7 @@ The overview is about the decription of causality dataset, which is widely appli
 	
 ### Dataset-1 (SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals.)
 
-The dataset is used in the paper [[1]](#1), [[6]](#6), the relations from the dataset are classified into 10 categories:
+The dataset is used in the papers [[1]](#1), [[6]](#6), the relations from the dataset are classified into 10 categories:
 - Cause-effect
 - Component-whole
 - Entity-destination
