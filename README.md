@@ -1,4 +1,4 @@
-# The overview of awesome causality dataset 
+# A overview of awesome causality dataset 
 
 The overview is about the decription of causality dataset, which is widely applied in causality relevant tasks, such as the semEval challenges.
 
