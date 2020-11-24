@@ -7,9 +7,9 @@ Note: input your information then you can download it.
 **Processing (steps):**
 
 1. Use Stanford CoreNLP 3.5.2 to tokenize, lemmatize, POS tag, dependency parse and label named entities. [[1]](#1)
-   1. NLTK since version 3.2.3 has a new interface to Stanford CoreNLP using the StanfordCoreNLPServer: nltk.parse.corenlp.CoreNLPParser. You should avoid using the
-   Stanford tokenizer/segmenter/NER from nltk.tokenize and nltk.tag (unless stuck on a very old version of NLTK) – these classes are very slow, since they perform
-   calls to Java via the command-line for each invocation.
+   
+	   Note: NLTK since version 3.2.3 has a new interface to Stanford CoreNLP using the StanfordCoreNLPServer: nltk.parse.corenlp.CoreNLPParser. You should avoid using the Stanford tokenizer/segmenter/NER from nltk.tokenize and nltk.tag (unless stuck on a very old version of NLTK) – these classes are very slow, since they perform calls to Java via the command-line for each invocation.
+   1. dependency parse: here using the spaCy.
    
 1. Extract events by keeping all tokens whose POS tags begin with VB: VB, VBD, VBG, VBN, VBP, and VBZ.
 1. Exclude light verbs e.g. be, let, do, begin, have, start, try, be- cause they often only represent a meaningful event when combined with their complements.
